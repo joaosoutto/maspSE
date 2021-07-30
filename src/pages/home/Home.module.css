@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  width: 100%;
+  margin-top: 6px;
+  background-image: url("../../assets/para.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 63%;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.top h1 {
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin: 0;
+  line-height: 4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.text {
+  background-color: rgb(245, 134, 52);
+  padding: 40px;
+  width: 35%;
+  margin-left: 200px;
+  text-shadow: 1px 2px rgb(72, 73, 73);
+}
+
+.middle {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.middle h3 {
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(72, 73, 73);
+  font-weight: 500;
+}
+
+.middle span {
+  font-weight: 900;
+  font-size: 34px;
+  text-decoration: underline;
+  text-decoration-color: rgb(245, 134, 52);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link span {
+  margin: 0;
+  margin-bottom: 18px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  position: relative;
+  color: rgb(72, 73, 73);
+  text-decoration: none;
+}
+
+.link span:before {
+  background-color: rgb(245, 134, 52);
+  bottom: -5px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  visibility: hidden;
+  width: 0;
+}
+
+.link span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.clients {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(245, 134, 52);
+}
+
+.clients h3 {
+  font-size: 54px;
+  margin-bottom: 70px;
+  color: rgb(72, 73, 73);
+  text-decoration: underline;
+  text-decoration-color: rgb(245, 134, 52);
+}
+
+.allClients {
+  width: 70%;
+}
+
+@media (max-width: 40rem) {
+  .top {
+    display: none;
+  }
+
+  .top h1 {
+
+    display: none;
+  }
+
+  .text {
+    /* display: none; */
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .middle {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .middle h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .middle span {
+    font-size: 26px;
+  }
+}

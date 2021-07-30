@@ -1,0 +1,45 @@
+.container {
+  width: 350px;
+  position: relative;
+  text-align: center;
+  margin: 20px;
+}
+
+.service {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.service h4 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  margin: 0;
+  color: #fff;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+@media (max-width: 40rem) {
+  .container {
+    width: 150px;
+    margin: 0;
+    height: 120px;
+  }
+
+  .service {
+    padding: 0;
+  }
+
+  .service h4 {
+    font-size: 20px;
+  }
+}

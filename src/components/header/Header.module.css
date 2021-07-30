@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 30px 120px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.header nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 400px;
+}
+
+.link {
+  margin: 0 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(245, 134, 52);
+  text-shadow: 1px 0.5px rgb(72, 73, 73);
+}
+
+.link p {
+  margin: 0;
+  margin-bottom: 18px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.link p:before {
+  background-color: rgb(245, 134, 52);
+  bottom: -5px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  visibility: hidden;
+  width: 0;
+}
+
+.link p:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+@media (max-width: 40rem) {
+  .header nav {
+    display: none;
+  }
+
+  .header {
+    padding: 30px 0;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 300px;
+  }
+}
