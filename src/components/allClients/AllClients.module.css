@@ -14,3 +14,15 @@
 .img:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 40rem) {
+  .clientDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .clientDiv img {
+    width: 70%;
+    margin: 10px;
+  }
+}

@@ -113,34 +113,55 @@
 }
 
 @media (max-width: 40rem) {
+  .content {
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-bottom: 100px;
+  }
+
   .top {
     display: none;
   }
 
   .top h1 {
-
     display: none;
   }
 
   .text {
-    /* display: none; */
     padding: 0;
     width: 100%;
     margin: 0;
   }
 
   .middle {
-    width: 100%;
+    width: 90%;
     margin: 0;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .middle h3 {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2rem;
+    width: 94%;
   }
 
   .middle span {
-    font-size: 26px;
+    font-size: 24px;
+  }
+
+  .clients {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .clients h3 {
+    font-size: 28px;
+    width: 90%;
+    margin: 40px 0;
   }
 }
