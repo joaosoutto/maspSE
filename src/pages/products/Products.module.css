@@ -100,3 +100,61 @@ h2 {
   color: rgb(245, 134, 52);
   font-size: 30px;
 }
+
+@media (max-width: 40rem) {
+  h2 {
+    font-size: 24px;
+    margin: 40px 0 10px 0;
+  }
+
+  .divider {
+    margin: 10px 0;
+  }
+
+  .quote {
+    padding: 20px 10px;
+  }
+
+  .quote p {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .tips {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .left {
+    border: none;
+    width: 90%;
+  }
+
+  .right {
+    width: 90%;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .left p,
+  .right p {
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .left span {
+    font-size: 22px;
+  }
+
+  .contact {
+    margin-bottom: 100px;
+  }
+
+  .contact h3 {
+    font-size: 28px;
+  }
+}

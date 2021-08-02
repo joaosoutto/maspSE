@@ -168,3 +168,46 @@
   border: 1px solid #fff;
   margin: 0;
 }
+
+@media (max-width: 40rem) {
+  .right {
+    display: none;
+  }
+
+  .left {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 80px;
+  }
+
+  .left div {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .name {
+    font-size: 30px;
+    text-shadow: none;
+    letter-spacing: 1px;
+  }
+
+  .role {
+    font-size: 24px;
+    margin: 12px 0;
+    text-shadow: none;
+    letter-spacing: 1px;
+  }
+
+  .phone {
+    font-size: 24px;
+    margin: 18px 0;
+    text-shadow: none;
+    letter-spacing: 1px;
+  }
+
+  .email {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    text-shadow: none;
+  }
+}
