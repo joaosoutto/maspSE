@@ -87,3 +87,12 @@
     font-size: 24px;
   }
 }
+
+@media (max-width: 1400px) {
+  .right {
+    margin-right: 70px;
+    align-items: flex-start;
+    padding-top: 70px;
+  }
+
+}

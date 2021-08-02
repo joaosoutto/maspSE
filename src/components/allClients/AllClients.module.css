@@ -26,3 +26,16 @@
     margin: 10px;
   }
 }
+
+@media (max-width: 1400px) {
+  .clientDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .clientDiv img {
+    width: 50%;
+    margin: 30px;
+  }
+}
+
