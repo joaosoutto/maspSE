@@ -46,7 +46,7 @@ const Products = () => (
       <div className={styles.right}>
         <p>
           <span className={styles.arrow}>{`>>`}</span> Tenha sempre disponível a
-          documentação referente à necessidade ou não da instalação do SPDA,
+          documentação referente a necessidade ou não da instalação do SPDA,
           baseado na norma técnica <span>NBR-5419:2015</span>.
         </p>
         <p>
@@ -72,9 +72,9 @@ const Products = () => (
     <div className={styles.divider} />
     <div className={styles.contact}>
       <h3>
-        Não perca tempo e{" "}
-        <Link className={styles.link} to="/contato">
-          <span>fale conosco!</span>
+        Confira já nossos
+        <Link className={styles.link} to="/clientes">
+          <span> clientes!</span>
         </Link>
         !
       </h3>

@@ -8,7 +8,7 @@ const FooterCard = ({ icon, text, path }) => {
   return (
     <div className={styles.card} onClick={() => history.push(`/${path}`)}>
       {icon}
-      <p>{text}</p>
+      <p style={{ fontSize: 16 }}>{text}</p>
     </div>
   );
 };

@@ -3,30 +3,33 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* flex-direction: column; */
-  padding: 60px 280px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+  transform: skewY(2deg);
+  margin-top: 50px;
+  width: 100%;
+}
+
+.card {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 40px;
+  transform: skewY(-2deg);
 }
 
 @media (max-width: 40rem) {
   .services {
-    padding: 20px 0;
-    /* width: 90%; */
+    padding: 40px 0;
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     align-items: center;
     justify-content: center;
-    /* gap: 10px; */
     flex-direction: column;
-    /* display: grid;
-      grid-template-columns: 1fr 1fr; */
-    /* display: none; */
   }
-}
-
-@media (max-width: 1400px) {
-  .services {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 30px;
+  .card {
+    grid-template-columns: 1fr;
   }
 }

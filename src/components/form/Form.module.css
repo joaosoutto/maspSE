@@ -1,0 +1,137 @@
+.wrapper {
+  background-image: url("../../assets/fale-conosco.jpeg");
+  background-repeat: no-repeat;
+  background-position-x: 86%;
+  background-position-y: 30%;
+  background-size: 28%;
+  width: 100%;
+  padding: 40px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 120px;
+}
+
+.inputDiv,
+.area {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+label {
+  font-size: 48px;
+  color: rgb(245, 134, 52);
+  text-shadow: 1px 0.5px rgb(72, 73, 73);
+  margin-bottom: 28px;
+}
+
+input {
+  height: 40px;
+  width: 96%;
+  font-size: 30px;
+  padding: 14px;
+  padding-left: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(72, 73, 73);
+  border: 2px solid rgb(245, 134, 52);
+  border-radius: 10px;
+}
+
+.textarea {
+  width: 96%;
+  height: 200px;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 26px;
+
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(72, 73, 73);
+  border: 2px solid rgb(245, 134, 52);
+  resize: none;
+}
+
+.submit {
+  width: 60%;
+  align-self: flex-end;
+  height: 70px;
+  font-size: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  color: rgb(245, 134, 52);
+  background-color: rgb(245, 134, 52);
+  color: #fff;
+  transition: all 0.2s;
+  font-weight: 900;
+}
+
+.submit:hover {
+  border: none;
+  background-color: rgb(252, 165, 103);
+  color: #fff;
+  cursor: pointer;
+}
+
+input:focus,
+.textarea:focus {
+  outline: none;
+}
+
+@media (max-width: 40rem) {
+  .wrapper {
+    width: 100%;
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0;
+  }
+
+  form {
+    width: 80%;
+    margin-left: 0 !important;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inputDiv,
+  .area {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  label {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .textarea {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  input {
+    width: 80%;
+    height: 16px;
+    font-size: 20px;
+  }
+
+  .submit {
+    align-self: center;
+    width: 80%;
+    height: 40px;
+  }
+
+  .inputDiv,
+  .area {
+    margin-bottom: 16px;
+  }
+}

@@ -1,8 +1,8 @@
 .container {
-  width: 350px;
+  width: 95%;
+  height: 350px;
   position: relative;
   text-align: center;
-  margin: 20px;
 }
 
 .service {
@@ -16,8 +16,7 @@
 }
 
 .service h4 {
-  font-size: 36px;
-  letter-spacing: 2px;
+  font-size: 28px;
   margin: 0;
   color: #fff;
 }
@@ -31,9 +30,7 @@
 @media (max-width: 40rem) {
   .container {
     width: 70%;
-    /* margin: 10px; */
     height: 140px;
-    /* background-color: yellow; */
   }
 
   .service {
@@ -48,8 +45,6 @@
 @media (max-width: 1400px) {
   .container {
     width: 90%;
-    /* margin: 10px; */
     height: 220px;
-    /* background-color: yellow; */
   }
 }

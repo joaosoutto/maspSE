@@ -9,8 +9,8 @@ const About = () => (
       <p>
         A <span className={styles.name}>MASP</span> é uma empresa especializada
         em prover soluções de consultoria em instalações elétricas, proteção
-        contra descargas atmosféricas <span>(SPDA)</span> e aterramento
-        elétrico.
+        contra descargas atmosféricas <span>(SPDA)</span>, aterramento elétrico
+        e treinamentos para as mais diversas necessidades.
       </p>
       <p>
         Com equipe de profissionais altamente preparados e capacitados,
@@ -23,8 +23,10 @@ const About = () => (
         pretende é maximizar os resultados e minimizar os custos envolvidos.
       </p>
       <h3>
-        Com 25 anos de mercado e aproximadamente 500 obras registradas, a MASP
+        Com 29 anos de mercado e aproximadamente 600 obras registradas, a MASP
         pode te ajudar a qualquer momento!
+        <br />
+        Entre já em contato conosco!
       </h3>
     </div>
     <div className={styles.right}>

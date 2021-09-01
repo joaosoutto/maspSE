@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import styles from "./Home.module.css";
-import AllClients from "../../components/allClients/AllClients";
 import ServiceDiv from "../../components/sericeDiv/ServiceDiv";
 
 const Home = () => (
@@ -26,11 +25,17 @@ const Home = () => (
       </div>
 
       <ServiceDiv />
-
-      <div className={styles.clients}>
-        <h3>Conheça alguns de nossos clientes:</h3>
-        <div className={styles.allClients}>
-          <AllClients />
+      <div className={styles.foot}>
+        <div className={styles.contats}>
+          <h4>Tadeu de Souza - (31) 9 8013.5035</h4>
+          <h4>Lucielene de Almeida - (31) 9 8013.5034</h4>
+          <h4 className={styles.end}>
+            Rua Naná Kubitschek Soares, 82 - Bairro Alvorada - Sabará/MG - CEP
+            34700-160
+          </h4>
+        </div>
+        <div className={styles.rights}>
+          © 2021 Masp Soluções Elétricas - Todos os direitos reservados.
         </div>
       </div>
     </div>

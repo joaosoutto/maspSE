@@ -37,14 +37,17 @@
 }
 
 .middle {
-  width: 50%;
-  margin-top: 30px;
+  width: 60%;
+  margin-top: 40px;
   margin-left: 200px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .middle h3 {
-  font-size: 30px;
+  font-size: 40px;
   text-align: left;
   letter-spacing: 2px;
   line-height: 3rem;
@@ -55,7 +58,7 @@
 
 .middle span {
   font-weight: 900;
-  font-size: 34px;
+  font-size: 44px;
   text-decoration: underline;
   text-decoration-color: rgb(245, 134, 52);
 }
@@ -92,32 +95,44 @@
   width: 100%;
 }
 
-.clients {
-  padding-top: 40px;
+.foot {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgb(245, 134, 52);
+  justify-content: center;
 }
 
-.clients h3 {
-  font-size: 54px;
-  margin-bottom: 70px;
-  color: rgb(72, 73, 73);
-  text-decoration: underline;
-  text-decoration-color: rgb(245, 134, 52);
+.contats {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0 15 0;
+  border-bottom: 1px solid rgb(30, 30, 30);
 }
 
-.allClients {
-  width: 70%;
+.contats h4 {
+  font-size: 20px;
+}
+
+.end {
+  width: 30%;
+  line-height: 40px;
+}
+
+.rights {
+  padding: 30px 0 50px 0;
+  font-size: 20px;
 }
 
 @media (max-width: 40rem) {
   .content {
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     margin-top: 3px;
-    margin-bottom: 100px;
+    padding: none;
+    margin: none;
   }
 
   .top {
@@ -135,62 +150,48 @@
   }
 
   .middle {
-    width: 90%;
+    width: 100%;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
   }
 
   .middle h3 {
-    text-align: center;
     font-size: 20px;
     text-align: center;
-    line-height: 2rem;
-    width: 94%;
+    line-height: 1.8rem;
+    letter-spacing: inherit;
+    width: 90%;
   }
 
   .middle span {
     font-size: 24px;
   }
 
-  .clients {
+  .foot {
+    padding-bottom: 70px;
+    margin-top: 50px;
+  }
+
+  .contats {
     width: 100%;
-    padding: 10px;
+    flex-direction: column;
   }
 
-  .clients h3 {
-    font-size: 28px;
-    width: 90%;
-    margin: 40px 0;
-  }
-}
-
-@media (max-width: 1400px) {
-  .text {
-
-    padding: 30px;
-    margin-left: 100px;
-  
+  .contats h4 {
+    font-size: 16px;
   }
 
-  .text h1 {
-    font-size: 36px;
-  }
-
-  .middle {
-    margin-left: 100px;
-    width: 60%;
-  }
-
-  .clients {
+  .end {
     width: 100%;
-    padding: 10px;
+    margin: 0;
+    margin-top: 10px;
+    border-top: 1px solid rgb(72, 73, 73);
   }
-
-  .clients h3 {
-    font-size: 34px;
-    width: 90%;
-    margin: 80px 0;
+  .rights {
+    padding: 30px 80px;
+    font-size: 12px;
   }
 }

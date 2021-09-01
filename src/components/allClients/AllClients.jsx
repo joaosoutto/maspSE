@@ -63,6 +63,7 @@ import universo from "../../assets/clientes/universo.png";
 import uromaster from "../../assets/clientes/uromaster.png";
 import vertra from "../../assets/clientes/vertra.jpeg";
 import yplan from "../../assets/clientes/yplan.png";
+import barb_mello from "../../assets/clientes/barb_mello.jpeg";
 
 const AllClients = () => {
   return (
@@ -128,6 +129,7 @@ const AllClients = () => {
       <img src={uromaster} alt="logo do cliente" className={styles.img} />
       <img src={vertra} alt="logo do cliente" className={styles.img} />
       <img src={yplan} alt="logo do cliente" className={styles.img} />
+      <img src={barb_mello} alt="logo do cliente" className={styles.img} />
     </div>
   );
 };

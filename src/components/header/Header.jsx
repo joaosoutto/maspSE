@@ -16,6 +16,9 @@ const Header = () => (
       <Link className={styles.link} to="/servicos">
         <p>Serviços</p>
       </Link>
+      <Link className={styles.link} to="/clientes">
+        <p>Clientes</p>
+      </Link>
       <Link className={styles.link} to="/sobre">
         <p>Quem Somos</p>
       </Link>

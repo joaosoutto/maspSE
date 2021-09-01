@@ -24,3 +24,9 @@
     transform: initial;
   }
 }
+
+@media (max-width: 40rem) {
+  .sec {
+    width: 100%;
+  }
+}

@@ -13,12 +13,17 @@ import styles from "./ServiceDiv.module.css";
 
 const ServiceDiv = () => (
   <div className={styles.services}>
-    <ServiceCard src={inspecao} service="Inspeções" />
-    <ServiceCard src={aterramento} service="Aterramento" />
-    <ServiceCard src={grupogerados} service="Grupo Geradores" />
-    <ServiceCard src={pararaio} service="Para-Raio" />
-    <ServiceCard src={eficiencia} service="Eficiência Elétrica" />
-    <ServiceCard src={more} service="E muito mais..." />
+    <div className={styles.card}>
+      <ServiceCard src={inspecao} service="Inspeções" />
+      <ServiceCard src={aterramento} service="Aterramento" />
+      <ServiceCard src={grupogerados} service="Manutenção em Grupo Geradores" />
+      <ServiceCard src={pararaio} service="Para-Raio" />
+      <ServiceCard
+        src={eficiencia}
+        service="Treinamento das Normas Regulamentadoras - NR's"
+      />
+      <ServiceCard src={more} service="E muito mais..." />
+    </div>
   </div>
 );
 

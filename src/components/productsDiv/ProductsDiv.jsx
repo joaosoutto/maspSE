@@ -4,7 +4,6 @@ import ProductsCards from "../products/ProductsCards";
 import OfflineBoltOutlinedIcon from "@material-ui/icons/OfflineBoltOutlined";
 import FeaturedPlayListOutlinedIcon from "@material-ui/icons/FeaturedPlayListOutlined";
 import EmojiObjectsOutlinedIcon from "@material-ui/icons/EmojiObjectsOutlined";
-import TrendingUpOutlinedIcon from "@material-ui/icons/TrendingUpOutlined";
 import FlashOffOutlinedIcon from "@material-ui/icons/FlashOffOutlined";
 import BeenhereOutlinedIcon from "@material-ui/icons/BeenhereOutlined";
 import AccountTreeOutlinedIcon from "@material-ui/icons/AccountTreeOutlined";
@@ -33,19 +32,13 @@ const ProductsDiv = () => (
         }
       />
       <ProductsCards
-        name="Eficiência Energética"
-        icon={
-          <TrendingUpOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />
-        }
-      />
-      <ProductsCards
         name="Aterramentos Elétricos"
         icon={
           <FlashOffOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />
         }
       />
       <ProductsCards
-        name="Grupos Geradores"
+        name="Manutenção em Grupos Geradores"
         icon={
           <BatteryChargingFullOutlinedIcon
             fontSize="large"
@@ -60,7 +53,7 @@ const ProductsDiv = () => (
         }
       />
       <ProductsCards
-        name="Treinamentos"
+        name="Treinamentos das Normas Reguladoras"
         icon={
           <SupervisorAccountOutlinedIcon
             fontSize="large"
@@ -75,13 +68,13 @@ const ProductsDiv = () => (
         }
       />
       <ProductsCards
-        name="Infraestrutura Elétrica e Telecomunicações"
+        name="Elaboração de Projetos Elétricos para Canteiro de Obras"
         icon={
           <AccountTreeOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />
         }
       />
       <ProductsCards
-        name="Elaboração, Coordenação e Execução de Projetos"
+        name="Elaboração, Coordenação e Execução de Projetos Elétricos"
         icon={<BuildOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />}
       />
     </div>
