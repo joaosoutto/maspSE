@@ -4,7 +4,7 @@ import ServiceCard from "../serviceCard/ServiceCard";
 
 import inspecao from "../../assets/serviços/inspecao.jpg";
 import aterramento from "../../assets/serviços/aterramento.png";
-import eficiencia from "../../assets/serviços/eficiencia.jpg";
+import treinamento from "../../assets/treinamento.jpeg";
 import grupogerados from "../../assets/serviços/grupogerados.png";
 import pararaio from "../../assets/serviços/pararaio.jpg";
 import more from "../../assets/serviços/more.jpg";
@@ -16,10 +16,10 @@ const ServiceDiv = () => (
     <div className={styles.card}>
       <ServiceCard src={inspecao} service="Inspeções" />
       <ServiceCard src={aterramento} service="Aterramento" />
-      <ServiceCard src={grupogerados} service="Manutenção em Grupo Geradores" />
+      <ServiceCard src={grupogerados} service="Instalação e Manutenção em Grupo Gerador" />
       <ServiceCard src={pararaio} service="Para-Raio" />
       <ServiceCard
-        src={eficiencia}
+        src={treinamento}
         service="Treinamento das Normas Regulamentadoras - NR's"
       />
       <ServiceCard src={more} service="E muito mais..." />

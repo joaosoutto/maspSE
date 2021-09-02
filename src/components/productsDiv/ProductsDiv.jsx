@@ -38,7 +38,7 @@ const ProductsDiv = () => (
         }
       />
       <ProductsCards
-        name="Manutenção em Grupos Geradores"
+        name="Instalação e Manutenção em Grupos Gerador"
         icon={
           <BatteryChargingFullOutlinedIcon
             fontSize="large"
