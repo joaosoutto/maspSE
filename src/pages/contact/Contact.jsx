@@ -23,8 +23,8 @@ const Contact = () => {
           <h4 className={styles.email}>masp.comercial@gmail.com</h4>
         </div>
         <div className={styles.end}>
-          <h5>Rua Naná Kubitschek Soares, 82</h5>{" "}
-          <h5>Bairro Alvorada - Sabará/MG</h5> <h5>CEP 34700-160</h5>
+          <h5 className={styles.endt}>Rua Naná Kubitschek Soares, 82</h5>{" "}
+          <h5 className={styles.endt}>Bairro Alvorada - Sabará/MG</h5> <h5 className={styles.endt}>CEP 34700-160</h5>
         </div>
       </div>
     </section>

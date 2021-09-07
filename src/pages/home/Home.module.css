@@ -21,7 +21,7 @@
 
 .top h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 44px;
   letter-spacing: 2px;
   margin: 0;
   line-height: 4rem;
@@ -30,16 +30,16 @@
 
 .text {
   background-color: rgb(245, 134, 52);
-  padding: 40px;
-  width: 35%;
-  margin-left: 200px;
+  padding: 20px;
+  width: 45%;
+  margin-left: 100px;
   text-shadow: 1px 2px rgb(72, 73, 73);
 }
 
 .middle {
-  width: 60%;
+  width: 55%;
   margin-top: 40px;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-bottom: 30px;
   display: flex;
   align-items: center;
@@ -47,18 +47,19 @@
 }
 
 .middle h3 {
-  font-size: 40px;
+  font-size: 38px;
   text-align: left;
   letter-spacing: 2px;
-  line-height: 3rem;
+  line-height: 3.5rem;
   font-family: "Ubuntu", sans-serif;
   color: rgb(72, 73, 73);
   font-weight: 500;
+  text-align: justify;
 }
 
 .middle span {
   font-weight: 900;
-  font-size: 44px;
+  font-size: 40px;
   text-decoration: underline;
   text-decoration-color: rgb(245, 134, 52);
 }
@@ -126,6 +127,69 @@
   font-size: 20px;
 }
 
+.contacts {
+  /* background-color: rgb(245, 134, 52); */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 0;
+  text-align: left;
+  width: 90%;
+  border-bottom: 2px solid rgb(72, 73, 73);
+}
+
+h5 {
+  font-size: 26px;
+  margin: 18px 0;
+  color: rgb(72, 73, 73);
+  text-align: center;
+}
+
+.name {
+  font-size: 32px;
+  margin: 0;
+  color: rgb(72, 73, 73);
+}
+
+.role {
+  font-size: 26px;
+  margin: 12px 0;
+  color: rgb(72, 73, 73);
+}
+
+.phone {
+  font-size: 20px;
+  margin: 18px 0;
+  color: rgb(72, 73, 73);
+}
+
+.email {
+  font-size: 24px;
+  margin: 24px 0 0 0;
+  letter-spacing: 2px;
+  color: rgb(245, 134, 52);
+}
+
+.contacts div {
+  border-left: 4px solid rgb(245, 134, 52);
+  padding-left: 20px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  justify-content: center;
+  min-height: 200px;
+  /* background-color: antiquewhite; */
+}
+
+
+
+.end h5 {
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+}
+
 @media (max-width: 40rem) {
   .content {
     align-items: flex-end;
@@ -188,10 +252,73 @@
     width: 100%;
     margin: 0;
     margin-top: 10px;
-    border-top: 1px solid rgb(72, 73, 73);
+    /* border-top: 1px solid rgb(72, 73, 73); */
   }
   .rights {
     padding: 30px 80px;
     font-size: 12px;
   }
+
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0;
+    margin-top: 20px;
+    /* padding-bottom: 80px; */
+  }
+
+  .contacts div {
+    padding: 0;
+    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding-bottom: 0px;
+    border-left: none;
+    border-bottom: 2px solid rgb(72, 73, 73);
+  }
+
+  .name {
+    font-size: 24px;
+    text-shadow: none;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .role {
+    font-size: 20px;
+    margin: 6px 0;
+    text-shadow: none;
+    letter-spacing: 1px;
+  }
+
+  .phone {
+    font-size: 16px;
+    margin: 6px 0;
+    text-shadow: none;
+  }
+
+  .email {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    text-shadow: none;
+  }
+
+  h5 {
+    margin: 5px !important;
+    font-size: 16px !important;
+    color: #fff;
+    width: 80%;
+    font-weight: 600;
+    color: rgb(245, 134, 52);
+  }
+
+  .end {
+    border: none !important;
+  }
+
+
 }

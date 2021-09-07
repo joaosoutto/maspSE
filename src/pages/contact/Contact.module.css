@@ -24,25 +24,25 @@ h5 {
 }
 
 .name {
-  font-size: 40px;
+  font-size: 32px;
   margin: 0;
   color: rgb(72, 73, 73);
 }
 
 .role {
-  font-size: 30px;
+  font-size: 26px;
   margin: 12px 0;
   color: rgb(72, 73, 73);
 }
 
 .phone {
-  font-size: 28px;
+  font-size: 20px;
   margin: 18px 0;
   color: rgb(72, 73, 73);
 }
 
 .email {
-  font-size: 36px;
+  font-size: 24px;
   margin: 24px 0 0 0;
   letter-spacing: 2px;
   color: #fff;
@@ -103,14 +103,20 @@ h5 {
     text-shadow: none;
   }
 
-  h5 {
-    margin: 6px 0;
-    font-size: 18px;
+  .endt {
+    margin: 5px !important;
+    font-size: 16px !important;
     color: #fff;
+    width: 80%;
+    font-weight: 600;
   }
 
   .end {
     margin-bottom: 80px;
     padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

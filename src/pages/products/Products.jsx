@@ -71,13 +71,9 @@ const Products = () => (
     </div>
     <div className={styles.divider} />
     <div className={styles.contact}>
-      <h3>
-        Confira já nossos
-        <Link className={styles.link} to="/clientes">
-          <span> clientes!</span>
-        </Link>
-        !
-      </h3>
+      <Link className={styles.link} to="/clientes">
+        <h3>Confira já nossos clientes !</h3>
+      </Link>
     </div>
   </section>
 );

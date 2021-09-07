@@ -3,9 +3,8 @@
 }
 
 .card p {
-  font-size: 26px;
-  margin: 8px 0;
-
+  font-size: 20px;
+  margin: 10px 20px;
   font-weight: 900;
 }
 
@@ -17,5 +16,7 @@
 
   .card {
     height: 120px;
+    margin: 10px 0;
+
   }
 }
