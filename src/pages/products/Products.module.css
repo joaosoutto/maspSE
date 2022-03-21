@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 .section {
   margin-top: 6px;
@@ -9,27 +9,27 @@
 }
 
 h2 {
-  font-size: 52px;
-  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
   color: rgb(72, 73, 73);
   font-weight: 900;
   text-shadow: 1px 1px rgb(245, 134, 52);
-  margin: 60px 0 40px 0;
+  margin: 20px 0 10px 0;
 }
 
 .divider {
-  border: 3px solid rgb(245, 134, 52);
+  border: 2px solid rgb(245, 134, 52);
   width: 80%;
   margin: 20px;
 }
 
 .quote {
   background-color: rgb(245, 134, 52);
-  margin: 80px 0;
+  margin: 30px 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px;
+  padding: 30px;
 }
 
 .contact {
@@ -45,8 +45,8 @@ h2 {
 
 .contact h3 {
   color: #fff;
-  font-size: 40px;
-  text-shadow: 1px 2px rgb(72, 73, 73);
+  font-size: 30px;
+  /* text-shadow: 1px 2px rgb(72, 73, 73); */
 }
 
 .link {
@@ -56,8 +56,8 @@ h2 {
 }
 
 .quote p {
-  font-size: 36px;
-  width: 60%;
+  font-size: 24px;
+  width: 70%;
   color: #fff;
 }
 
@@ -78,7 +78,7 @@ h2 {
 .left p,
 .right p {
   width: 90%;
-  font-size: 26px;
+  font-size: 22px;
   text-align: left;
   margin: 10px 0;
   color: rgb(72, 73, 73);
@@ -86,7 +86,7 @@ h2 {
 
 .left span,
 .right span {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .right {
@@ -98,7 +98,7 @@ h2 {
 
 .arrow {
   color: rgb(245, 134, 52);
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @media (max-width: 40rem) {
@@ -145,11 +145,11 @@ h2 {
   .right p {
     text-align: center;
     width: 100%;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .left span {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .contact {
@@ -157,6 +157,6 @@ h2 {
   }
 
   .contact h3 {
-    font-size: 28px;
+    font-size: 20px;
   }
 }

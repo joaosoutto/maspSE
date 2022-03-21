@@ -1,57 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
- /* before */
-/* .header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding: 30px 60px 30px 100px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.header nav {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
-.logo {
-  width: 400px;
-}
-
-.link {
-  margin: 0 30px;
-  font-size: 28px;
-  text-decoration: none;
-  color: rgb(245, 134, 52);
-  text-shadow: 1px 0.5px rgb(72, 73, 73);
-}
-
-.link p {
-  margin: 0;
-  margin-bottom: 18px;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 900;
-  letter-spacing: 1px;
-  position: relative;
-}
-
-.link p:before {
-  background-color: rgb(245, 134, 52);
-  bottom: -5px;
-  content: "";
-  height: 3px;
-  left: 0;
-  position: absolute;
-  transition: all 0.2s ease-in-out;
-  visibility: hidden;
-  width: 0;
-}
-
-.link p:hover:before {
-  visibility: visible;
-  width: 100%;
-} */
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 .header {
   display: flex;
   align-items: flex-end;
@@ -67,12 +14,12 @@
 }
 
 .logo {
-  width: 400px;
+  width: 200px;
 }
 
 .link {
-  margin-left:26px;
-  font-size: 24px;
+  margin-left: 26px;
+  font-size: 18px;
   text-decoration: none;
   color: rgb(245, 134, 52);
   text-shadow: 1px 0.5px rgb(72, 73, 73);
@@ -81,7 +28,7 @@
 .link p {
   margin: 0;
   margin-bottom: 18px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 900;
   letter-spacing: 1px;
   position: relative;
@@ -90,7 +37,7 @@
 .link p:before {
   background-color: rgb(245, 134, 52);
   bottom: -5px;
-  content: "";
+  content: '';
   height: 3px;
   left: 0;
   position: absolute;
@@ -117,38 +64,6 @@
   }
 
   .logo {
-    width: 260px !important;
+    width: 180px !important;
   }
 }
-
-/* @media (max-width: 1400px) {
-  .header {
-    padding: 30px 30px;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .logo {
-    width: 300px;
-  }
-  .link {
-    margin: 40px 20px 0 20px;
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 1400px) {
-  .header {
-    padding: 30px 50px;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .logo {
-    width: 300px;
-  }
-  .link {
-    margin: 40px 20px 0 20px;
-    font-size: 24px;
-  }
-} */

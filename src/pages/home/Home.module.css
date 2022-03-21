@@ -1,57 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 .content {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.top {
-  width: 100%;
-  margin-top: 6px;
-  background-image: url("../../assets/para.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 63%;
-  height: 400px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
-
-.top h1 {
-  color: #fff;
-  font-size: 44px;
-  letter-spacing: 2px;
-  margin: 0;
-  line-height: 4rem;
-  font-family: "Ubuntu", sans-serif;
-}
-
-.text {
   background-color: rgb(245, 134, 52);
-  padding: 20px;
-  width: 45%;
-  margin-left: 100px;
-  text-shadow: 1px 2px rgb(72, 73, 73);
+  margin-top: 4px;
+  align-items: center;
+  justify-content: center;
 }
 
 .middle {
-  width: 55%;
-  margin-top: 40px;
-  margin-left: 100px;
-  margin-bottom: 30px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: -10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .middle h3 {
-  font-size: 38px;
+  font-size: 24px;
   text-align: left;
-  letter-spacing: 2px;
-  line-height: 3.5rem;
-  font-family: "Ubuntu", sans-serif;
+  line-height: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
   color: rgb(72, 73, 73);
   font-weight: 500;
   text-align: justify;
@@ -59,9 +31,9 @@
 
 .middle span {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 26px;
   text-decoration: underline;
-  text-decoration-color: rgb(245, 134, 52);
+  text-decoration-color: rgb(72, 73, 73);
 }
 
 .link {
@@ -71,7 +43,7 @@
 .link span {
   margin: 0;
   margin-bottom: 18px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 900;
   letter-spacing: 1px;
   position: relative;
@@ -80,9 +52,9 @@
 }
 
 .link span:before {
-  background-color: rgb(245, 134, 52);
+  background-color: rgb(72, 73, 73);
   bottom: -5px;
-  content: "";
+  content: '';
   height: 3px;
   left: 0;
   position: absolute;
@@ -97,133 +69,65 @@
 }
 
 .foot {
-  margin-top: 100px;
+  margin-top: 30px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.contats {
-  display: flex;
-  width: 80%;
-  align-items: center;
-  justify-content: space-around;
-  padding: 30px 0 15 0;
-  border-bottom: 1px solid rgb(30, 30, 30);
-}
-
-.contats h4 {
-  font-size: 20px;
-}
-
-.end {
-  width: 30%;
-  line-height: 40px;
-}
-
-.rights {
-  padding: 30px 0 50px 0;
-  font-size: 20px;
 }
 
 .contacts {
-  /* background-color: rgb(245, 134, 52); */
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.contacts p {
+  padding: 10px 10px;
+  border-left: 2px solid rgb(255, 255, 255);
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 80px 0;
-  text-align: left;
-  width: 90%;
-  border-bottom: 2px solid rgb(72, 73, 73);
 }
 
-h5 {
-  font-size: 26px;
-  margin: 18px 0;
-  color: rgb(72, 73, 73);
-  text-align: center;
-}
-
-.name {
-  font-size: 32px;
-  margin: 0;
-  color: rgb(72, 73, 73);
-}
-
-.role {
-  font-size: 26px;
-  margin: 12px 0;
-  color: rgb(72, 73, 73);
-}
-
-.phone {
+.end {
   font-size: 20px;
-  margin: 18px 0;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.rights {
+  border-top: 2px solid rgb(72, 73, 73);
+  width: 80%;
+  padding: 30px 0 50px 0;
+  margin-top: 20px;
+  font-size: 20px;
   color: rgb(72, 73, 73);
-}
-
-.email {
-  font-size: 24px;
-  margin: 24px 0 0 0;
-  letter-spacing: 2px;
-  color: rgb(245, 134, 52);
-}
-
-.contacts div {
-  border-left: 4px solid rgb(245, 134, 52);
-  padding-left: 20px;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin: 0 20px;
-  justify-content: center;
-  min-height: 200px;
-  /* background-color: antiquewhite; */
-}
-
-
-
-.end h5 {
-  font-size: 18px;
-  margin: 10px;
-  text-align: center;
 }
 
 @media (max-width: 40rem) {
   .content {
-    align-items: flex-end;
     justify-content: center;
     margin-top: 3px;
     padding: none;
     margin: none;
   }
 
-  .top {
-    display: none;
-  }
-
-  .top h1 {
-    display: none;
-  }
-
-  .text {
-    padding: 0;
-    width: 100%;
-    margin: 0;
-  }
-
   .middle {
-    width: 100%;
+    width: 90%;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -20px;
   }
 
   .middle h3 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     line-height: 1.8rem;
     letter-spacing: inherit;
@@ -231,94 +135,35 @@ h5 {
   }
 
   .middle span {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .foot {
     padding-bottom: 70px;
-    margin-top: 50px;
-  }
-
-  .contats {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .contats h4 {
-    font-size: 16px;
-  }
-
-  .end {
-    width: 100%;
-    margin: 0;
-    margin-top: 10px;
-    /* border-top: 1px solid rgb(72, 73, 73); */
-  }
-  .rights {
-    padding: 30px 80px;
-    font-size: 12px;
+    margin-top: 2px;
   }
 
   .contacts {
+    width: 100%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2px 0;
-    margin-top: 20px;
-    /* padding-bottom: 80px; */
+    margin-bottom: 10px;
   }
 
-  .contacts div {
+  .contacts p {
+    align-self: flex-start;
     padding: 0;
-    min-width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    padding-bottom: 0px;
     border-left: none;
-    border-bottom: 2px solid rgb(72, 73, 73);
-  }
-
-  .name {
-    font-size: 24px;
-    text-shadow: none;
-    letter-spacing: 1px;
-    margin: 0;
-  }
-
-  .role {
-    font-size: 20px;
-    margin: 6px 0;
-    text-shadow: none;
-    letter-spacing: 1px;
-  }
-
-  .phone {
-    font-size: 16px;
-    margin: 6px 0;
-    text-shadow: none;
-  }
-
-  .email {
-    font-size: 18px;
-    margin: 10px 0 0 0;
-    text-shadow: none;
-  }
-
-  h5 {
-    margin: 5px !important;
-    font-size: 16px !important;
-    color: #fff;
-    width: 80%;
-    font-weight: 600;
-    color: rgb(245, 134, 52);
+    text-align: justify;
+    margin-left: 14px;
   }
 
   .end {
-    border: none !important;
+    width: 100%;
+    margin: 0;
+    margin: 10px;
   }
-
-
+  .rights {
+    font-size: 18px;
+    width: 100%;
+  }
 }

@@ -1,10 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import styles from "./Products.module.css";
+import styles from './Products.module.css';
 
-import { Link } from "react-router-dom";
-
-import ProductsDiv from "../../components/productsDiv/ProductsDiv";
+import ProductsDiv from '../../components/productsDiv/ProductsDiv';
 
 const Products = () => (
   <section className={`sec animeLeft ${styles.section}`}>
@@ -15,7 +13,7 @@ const Products = () => (
     <ProductsDiv />
     <div className={styles.divider} />
     <div className={styles.quote}>
-      <p>
+      <p className={styles.quotep}>
         "As normas técnicas e regulamentadoras sempre serão referência e
         parâmetro para a instalação de um SPDA, pois, consideram as melhores
         práticas de engenharia, garantindo a segurança das pessoas, bens e
@@ -26,16 +24,16 @@ const Products = () => (
     <div className={styles.tips}>
       <div className={styles.left}>
         <p>
-          No Estado de Minas Gerais, a instalação do SPDA tem como preceito a{" "}
+          No Estado de Minas Gerais, a instalação do SPDA tem como preceito a{' '}
           <span>Lei 14.130/01</span> e o <span>Decreto 44.746/08</span>, que
           dispõe sobre prevenção contra incêndio e pânico.
         </p>
         <p>
           Para os condomínios a instalação e a manutenção do SPDA estão
-          associadas ao <span>Art. 1.346</span> do{" "}
+          associadas ao <span>Art. 1.346</span> do{' '}
           <span>Código Civil Brasileiro</span>, que define a obrigatoriedade do
           seguro da edificação, devendo o síndico proceder com o seguro contra
-          incêncio e sinistro que cause destruição, conforme preconiza o{" "}
+          incêncio e sinistro que cause destruição, conforme preconiza o{' '}
           <span>Art. 13 da Lei 4.591/64.</span>
         </p>
         <p>
@@ -70,11 +68,6 @@ const Products = () => (
       </div>
     </div>
     <div className={styles.divider} />
-    <div className={styles.contact}>
-      <Link className={styles.link} to="/clientes">
-        <h3>Confira já nossos clientes !</h3>
-      </Link>
-    </div>
   </section>
 );
 

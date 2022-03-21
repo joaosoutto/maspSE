@@ -1,81 +1,81 @@
-import React from "react";
-import ProductsCards from "../products/ProductsCards";
+import React from 'react';
+import ProductsCards from '../products/ProductsCards';
 
-import OfflineBoltOutlinedIcon from "@material-ui/icons/OfflineBoltOutlined";
-import FeaturedPlayListOutlinedIcon from "@material-ui/icons/FeaturedPlayListOutlined";
-import EmojiObjectsOutlinedIcon from "@material-ui/icons/EmojiObjectsOutlined";
-import FlashOffOutlinedIcon from "@material-ui/icons/FlashOffOutlined";
-import BeenhereOutlinedIcon from "@material-ui/icons/BeenhereOutlined";
-import AccountTreeOutlinedIcon from "@material-ui/icons/AccountTreeOutlined";
-import SupervisorAccountOutlinedIcon from "@material-ui/icons/SupervisorAccountOutlined";
-import BuildOutlinedIcon from "@material-ui/icons/BuildOutlined";
-import BatteryChargingFullOutlinedIcon from "@material-ui/icons/BatteryChargingFullOutlined";
+import OfflineBoltOutlinedIcon from '@material-ui/icons/OfflineBoltOutlined';
+import FeaturedPlayListOutlinedIcon from '@material-ui/icons/FeaturedPlayListOutlined';
+import EmojiObjectsOutlinedIcon from '@material-ui/icons/EmojiObjectsOutlined';
+import FlashOffOutlinedIcon from '@material-ui/icons/FlashOffOutlined';
+import BeenhereOutlinedIcon from '@material-ui/icons/BeenhereOutlined';
+import AccountTreeOutlinedIcon from '@material-ui/icons/AccountTreeOutlined';
+import SupervisorAccountOutlinedIcon from '@material-ui/icons/SupervisorAccountOutlined';
+import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
+import BatteryChargingFullOutlinedIcon from '@material-ui/icons/BatteryChargingFullOutlined';
 
-import styles from "./ProductsDiv.module.css";
+import styles from './ProductsDiv.module.css';
 
 const ProductsDiv = () => (
   <div className={styles.atuation}>
     <div className={styles.items}>
       <ProductsCards
-        name="Prontuários NR-10"
+        name='Prontuários NR-10'
         icon={
-          <OfflineBoltOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />
+          <OfflineBoltOutlinedIcon fontSize='large' style={{ fontSize: 46 }} />
         }
       />
       <ProductsCards
-        name="Laudos de SPDA"
+        name='Laudos de SPDA'
         icon={
           <FeaturedPlayListOutlinedIcon
-            fontSize="large"
-            style={{ fontSize: 54 }}
+            fontSize='large'
+            style={{ fontSize: 46 }}
           />
         }
       />
       <ProductsCards
-        name="Aterramentos Elétricos"
+        name='Aterramentos Elétricos'
         icon={
-          <FlashOffOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />
+          <FlashOffOutlinedIcon fontSize='large' style={{ fontSize: 46 }} />
         }
       />
       <ProductsCards
-        name="Instalação e Manutenção em Grupos Gerador"
+        name='Instalação e Manutenção em Grupos Gerador'
         icon={
           <BatteryChargingFullOutlinedIcon
-            fontSize="large"
-            style={{ fontSize: 54 }}
+            fontSize='large'
+            style={{ fontSize: 46 }}
           />
         }
       />
       <ProductsCards
-        name="Estudos de Viabilidade"
+        name='Estudos de Viabilidade'
         icon={
-          <BeenhereOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />
+          <BeenhereOutlinedIcon fontSize='large' style={{ fontSize: 46 }} />
         }
       />
       <ProductsCards
-        name="Treinamentos das Normas Reguladoras"
+        name='Treinamentos das Normas Reguladoras'
         icon={
           <SupervisorAccountOutlinedIcon
-            fontSize="large"
-            style={{ fontSize: 54 }}
+            fontSize='large'
+            style={{ fontSize: 46 }}
           />
         }
       />
       <ProductsCards
-        name="Relatórios Técnicos de Instalações"
+        name='Relatórios Técnicos de Instalações'
         icon={
-          <EmojiObjectsOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />
+          <EmojiObjectsOutlinedIcon fontSize='large' style={{ fontSize: 46 }} />
         }
       />
       <ProductsCards
-        name="Elaboração de Projetos Elétricos para Canteiro de Obras"
+        name='Elaboração de Projetos Elétricos para Canteiro de Obras'
         icon={
-          <AccountTreeOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />
+          <AccountTreeOutlinedIcon fontSize='large' style={{ fontSize: 46 }} />
         }
       />
       <ProductsCards
-        name="Elaboração, Coordenação e Execução de Projetos Elétricos"
-        icon={<BuildOutlinedIcon fontSize="large" style={{ fontSize: 54 }} />}
+        name='Elaboração, Coordenação e Execução de Projetos Elétricos'
+        icon={<BuildOutlinedIcon fontSize='large' style={{ fontSize: 46 }} />}
       />
     </div>
   </div>

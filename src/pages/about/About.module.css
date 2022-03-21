@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 .section {
   background-color: rgb(72, 73, 73);
   display: flex;
   justify-content: flex-start;
-  min-height: 86vh;
+  min-height: 82vh;
   margin-top: 6px;
 }
 .content {
   width: 60%;
   display: flex;
-  padding: 40px 100px;
+  padding: 40px 80px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -18,14 +18,14 @@
 
 .content p {
   color: #fff;
-  font-size: 32px;
+  font-size: 20px;
   text-align: left;
-  margin: 16px 0;
+  margin: 12px 0;
 }
 
 .content span {
-  font-weight: 900;
-  font-size: 34px;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .name {
@@ -35,14 +35,19 @@
 
 .content h3 {
   color: rgb(245, 134, 52);
-  font-size: 38px;
+  font-size: 24px;
   text-align: left;
 }
 
 .right {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 40%;
+}
+
+.right img {
+  width: 320px;
 }
 
 .flash {
@@ -79,12 +84,12 @@
   }
 
   .content span {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .content h3 {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 

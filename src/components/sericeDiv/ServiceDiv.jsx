@@ -1,30 +1,43 @@
-import React from "react";
+import React from 'react';
 
-import ServiceCard from "../serviceCard/ServiceCard";
+import OfflineBoltOutlinedIcon from '@material-ui/icons/OfflineBoltOutlined';
+import FlashOffOutlinedIcon from '@material-ui/icons/FlashOffOutlined';
+import AccountTreeOutlinedIcon from '@material-ui/icons/AccountTreeOutlined';
+import SupervisorAccountOutlinedIcon from '@material-ui/icons/SupervisorAccountOutlined';
+import BatteryChargingFullOutlinedIcon from '@material-ui/icons/BatteryChargingFullOutlined';
+import FlashOnIcon from '@material-ui/icons/FlashOn';
 
-import inspecao from "../../assets/serviços/inspecao.jpg";
-import aterramento from "../../assets/serviços/aterramento.png";
-import treinamento from "../../assets/treinamento.jpeg";
-import grupogerados from "../../assets/serviços/grupogerados.png";
-import elab from "../../assets/serviços/elab.png";
-import pararaio from "../../assets/serviços/pararaio.jpg";
-import mais from "../../assets/serviços/mais.png";
-
-import styles from "./ServiceDiv.module.css";
+import styles from './ServiceDiv.module.css';
 
 const ServiceDiv = () => (
   <div className={styles.services}>
-    <div className={styles.card}>
-      <ServiceCard src={inspecao} service="Inspeções Elétricas" />
-      <ServiceCard src={aterramento} service="Aterramento" />
-      <ServiceCard src={grupogerados} service="Instalação e Manutenção em Grupo Gerador" />
-      <ServiceCard src={elab} service="Elaboração de Projeto Elétrico do Canteiro de Obras" />
-      <ServiceCard src={pararaio} service="Para-Raio" />
-      <ServiceCard
-        src={treinamento}
-        service="Treinamento das Normas Regulamentadoras - NR's"
-      />
-      {/* <ServiceCard src={mais} service="E muito mais..." /> */}
+    <div className={styles.inner}>
+      <div className={styles.service}>
+        <OfflineBoltOutlinedIcon style={{ fontSize: 42, margin: 0 }} />
+        <p style={{ margin: '10px 0' }}>Inspeções elétricas</p>
+      </div>
+      <div className={styles.service}>
+        <FlashOffOutlinedIcon style={{ fontSize: 42, margin: 0 }} />
+        <p style={{ margin: '10px 0' }}>Aterramentos elétricos</p>
+      </div>
+      <div className={styles.service}>
+        <BatteryChargingFullOutlinedIcon style={{ fontSize: 42, margin: 0 }} />
+        <p style={{ margin: '10px 0' }}>Grupos gerador</p>
+      </div>
+    </div>
+    <div className={styles.inner}>
+      <div className={styles.service}>
+        <AccountTreeOutlinedIcon style={{ fontSize: 42, margin: 0 }} />
+        <p style={{ margin: '10px 0' }}>Elaboração de projetos elétricos</p>
+      </div>
+      <div className={styles.service}>
+        <SupervisorAccountOutlinedIcon style={{ fontSize: 42, margin: 0 }} />
+        <p style={{ margin: '10px 0' }}>Treinamentos NR's</p>
+      </div>
+      <div className={styles.service}>
+        <FlashOnIcon style={{ fontSize: 42, margin: 0 }} />
+        <p style={{ margin: '10px 0' }}>Para-raio</p>
+      </div>
     </div>
   </div>
 );

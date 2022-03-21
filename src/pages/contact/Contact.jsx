@@ -1,7 +1,10 @@
-import React from "react";
-import Form from "../../components/form/Form";
+import React from 'react';
+import Form from '../../components/form/Form';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import PhoneIcon from '@material-ui/icons/Phone';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
-import styles from "./Contact.module.css";
+import styles from './Contact.module.css';
 
 const Contact = () => {
   return (
@@ -9,22 +12,30 @@ const Contact = () => {
       <div className={styles.form}>
         <Form />
       </div>
-      <div className={styles.contacts}>
-        <div>
-          <h3 className={styles.name}>Tadeu de Souza</h3>
-          <h4 className={styles.role}>Consultor Técnico</h4>
-          <h4 className={styles.phone}>(31) 9 8013.5035</h4>
-          <h4 className={styles.email}>maspsolucoes@gmail.com</h4>
+      <div className={styles.foot}>
+        <div className={styles.contacts}>
+          <p>
+            {' '}
+            <WhatsAppIcon style={{ fontSize: 28, marginRight: 8 }} />
+            (31) 9 8013-5034
+          </p>
+          <p>
+            {' '}
+            <PhoneIcon style={{ fontSize: 28, marginRight: 8 }} />
+            (31) 3466-9966
+          </p>
+          <p>
+            {' '}
+            <MailOutlineIcon style={{ fontSize: 28, marginRight: 8 }} />
+            masp.comercial@gmail.com
+          </p>
         </div>
-        <div>
-          <h3 className={styles.name}>Lucielene de Almeida</h3>
-          <h4 className={styles.role}>Analista Comercial</h4>
-          <h4 className={styles.phone}>(31) 9 8013.5034 / (31) 3466.9966</h4>
-          <h4 className={styles.email}>masp.comercial@gmail.com</h4>
-        </div>
-        <div className={styles.end}>
-          <h5 className={styles.endt}>Rua Naná Kubitschek Soares, 82</h5>{" "}
-          <h5 className={styles.endt}>Bairro Alvorada - Sabará/MG</h5> <h5 className={styles.endt}>CEP 34700-160</h5>
+        <p className={styles.end}>
+          Rua Naná Kubitschek Soares, 82 Bairro Alvorada - Sabará-MG CEP
+          34700-160
+        </p>
+        <div className={styles.rights}>
+          © 2022 Masp Soluções Elétricas - Todos os direitos reservados.
         </div>
       </div>
     </section>
