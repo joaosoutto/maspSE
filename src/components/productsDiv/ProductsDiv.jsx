@@ -99,16 +99,15 @@ const ProductsDiv = () => (
         levantamento em campo, para adequação das NR-18 e NR-10.
       </p>
       <ProductsCards
-        name='Elaboração, Coordenação e Execução de Projetos Elétricos'
+        name='Elaboração e Coordenação de Projetos Elétricos'
         icon={<BuildOutlinedIcon fontSize='large' style={{ fontSize: 46 }} />}
       />
       <p className={styles.description}>
-        <span className={styles.arrow}>{`>`}</span> Conte conosco em todos os
-        passos do processo do seu Projeto Elétrico. Desde a elaboração até a
-        execução.
+        <span className={styles.arrow}>{`>`}</span> Conte conosco para a
+        elaboração e coordenação de seus Projetos Elétricos.
       </p>
       <ProductsCards
-        name='Treinamentos das Normas Reguladoras'
+        name='Treinamentos das Normas Regulamentadoras'
         icon={
           <SupervisorAccountOutlinedIcon
             fontSize='large'
