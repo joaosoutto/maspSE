@@ -10,9 +10,25 @@
   width: 90%;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  /* gap: 32px; */
   justify-items: flex-start;
   align-items: flex-start;
+}
+
+.arrow {
+  color: rgb(73, 74, 74);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.description {
+  margin: 12px 0 28px 0;
+  width: 80%;
+  text-align: left;
+  display: inline;
+  color: rgb(245, 134, 52);
+  font-weight: 700;
+  font-size: 14px;
 }
 
 @media (max-width: 40rem) {
@@ -24,5 +40,21 @@
   .items {
     width: 90%;
     gap: 2px;
+  }
+
+  .arrow {
+    color: rgb(73, 74, 74);
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .description {
+    margin: 2px 0 18px 0;
+    width: 100%;
+    text-align: left;
+    display: inline;
+    color: rgb(245, 134, 52);
+    font-weight: 500;
+    font-size: 16px;
   }
 }
