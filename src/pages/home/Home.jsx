@@ -13,7 +13,7 @@ const Home = () => (
       <div className={styles.middle}>
         <h3>
           A <span>MASP</span> poderá desenvolver a solução necessária que sua
-          empresa precisa. Com 29 anos de mercado, possuímos aproximadamente 600
+          empresa precisa. Com 30 anos de mercado, possuímos aproximadamente 600
           obras registradas! Conheça mais dos nossos serviços{' '}
           <Link className={styles.link} to='/servicos'>
             <span>clicando aqui.</span>

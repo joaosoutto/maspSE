@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import styles from "./About.module.css";
-import raio from "../../assets/raio1.png";
+import styles from './About.module.css';
+import raio from '../../assets/raio1.png';
 
 const About = () => (
   <section className={`sec animeLeft ${styles.section}`}>
@@ -18,19 +18,19 @@ const About = () => (
         confiabilidade e precisão <span>técnica</span>.
       </p>
       <p>
-        Nossos projetos são desenvolvidos e inspirados no{" "}
+        Nossos projetos são desenvolvidos e inspirados no{' '}
         <span>Método de Análise e Solução de Problemas</span>, onde o que se
         pretende é maximizar os resultados e minimizar os custos envolvidos.
       </p>
       <h3>
-        Com 29 anos de mercado e aproximadamente 600 obras registradas, a MASP
+        Com 30 anos de mercado e aproximadamente 600 obras registradas, a MASP
         pode te ajudar a qualquer momento!
         <br />
         Entre já em contato conosco!
       </h3>
     </div>
     <div className={styles.right}>
-      <img alt="raio" className={`${styles.img} ${styles.flash}`} src={raio} />
+      <img alt='raio' className={`${styles.img} ${styles.flash}`} src={raio} />
     </div>
   </section>
 );

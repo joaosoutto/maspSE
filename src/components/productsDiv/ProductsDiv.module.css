@@ -31,6 +31,22 @@
   font-size: 14px;
 }
 
+.descriptionNR {
+  margin: 12px 0 8px 0;
+  width: 80%;
+  text-align: left;
+  display: inline;
+  color: rgb(245, 134, 52);
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.nr {
+  margin: 6px 0;
+  color: rgb(73, 74, 74);
+}
+
 @media (max-width: 40rem) {
   .atuation {
     padding: 10px 0;
@@ -56,5 +72,22 @@
     color: rgb(245, 134, 52);
     font-weight: 500;
     font-size: 16px;
+  }
+
+  .descriptionNR {
+    margin: 12px 0 8px 0;
+    width: 100%;
+    text-align: left;
+    display: inline;
+    color: rgb(245, 134, 52);
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+
+  .nr {
+    margin: 6px 0;
+    text-align: left;
+    color: rgb(73, 74, 74);
   }
 }

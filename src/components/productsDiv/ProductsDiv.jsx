@@ -23,8 +23,8 @@ const ProductsDiv = () => (
         }
       />
       <p className={styles.description}>
-        <span className={styles.arrow}>{`>`}</span> Conhecida como Norma
-        Regulamentadora NR10, consiste no levantamento do sistema elétrico,
+        <span className={styles.arrow}>{`>`}</span> O prontuário de NR-10 (Norma
+        Regulamentadora NR-10), consiste no levantamento do sistema elétrico,
         definição dos procedimentos de segurança em eletricidade e elaboração da
         documentação.
       </p>
@@ -78,19 +78,6 @@ const ProductsDiv = () => (
         com as normas técnicas e regulamentadoras.
       </p>
       <ProductsCards
-        name='Treinamentos das Normas Reguladoras'
-        icon={
-          <SupervisorAccountOutlinedIcon
-            fontSize='large'
-            style={{ fontSize: 46 }}
-          />
-        }
-      />
-      <p className={styles.description}>
-        <span className={styles.arrow}>{`>`}</span> Treinamentos com base nas
-        NR's.
-      </p>
-      <ProductsCards
         name='Laudos e Relatórios Técnicos de Instalações'
         icon={
           <EmojiObjectsOutlinedIcon fontSize='large' style={{ fontSize: 46 }} />
@@ -119,6 +106,104 @@ const ProductsDiv = () => (
         <span className={styles.arrow}>{`>`}</span> Conte conosco em todos os
         passos do processo do seu Projeto Elétrico. Desde a elaboração até a
         execução.
+      </p>
+      <ProductsCards
+        name='Treinamentos das Normas Reguladoras'
+        icon={
+          <SupervisorAccountOutlinedIcon
+            fontSize='large'
+            style={{ fontSize: 46 }}
+          />
+        }
+      />
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 05 - COMISSÃO INTERNA DE
+        PREVENÇÃO DE ACIDENTES - CIPA
+      </p>
+      <p className={styles.nr}>
+        Treinamento presencial para membros e designados CIPA – Carga horária:
+        20:00hs
+      </p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 06 – EQUIPAMENTO DE
+        PROTEÇÃO INDIVIDUAL - EPI
+      </p>
+      <p className={styles.nr}>
+        Treinamento presencial – Carga horária: 04:00hs
+      </p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 10 - SEGURANÇA EM
+        INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE
+      </p>
+      <p className={styles.nr}>
+        Curso Básico - Treinamento presencial - Carga horária: 40:00hs
+      </p>
+      <p className={styles.nr}>
+        Curso Reciclagem – Treinamento presencial – Carga Horária: 08:00hs ou
+        04:00hs
+      </p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> SEP - CURSO COMPLEMENTAR -
+        SEGURANÇA NO SISTEMA ELÉTRICO DE POTÊNCIA E EM SUAS PROXIMIDADES.
+      </p>
+      <p className={styles.nr}>
+        Curso Complementar - Treinamento presencial - Carga horária: 40:00hs
+      </p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 12 - SEGURANÇA NO
+        TRABALHO EM MÁQUINAS E EQUIPAMENTOS
+      </p>
+      <p className={styles.nr}>Treinamento presencial - Carga Horária 8:00hs</p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 17 – ERGONOMIA
+      </p>
+      <p className={styles.nr}>Treinamento presencial - Carga Horária 8:00hs</p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 18 – SEGURANÇA E SAÚDE NO
+        TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO
+      </p>
+      <p className={styles.nr}>Treinamento presencial - Carga Horária 4:00hs</p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 24 - Condições Sanitárias
+        e de Conforto nos Locais de Trabalho
+      </p>
+      <p className={styles.nr}>Treinamento presencial - Carga Horária 4:00hs</p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 26 - Sinalização de
+        Segurança
+      </p>
+      <p className={styles.nr}>Treinamento presencial - Carga Horária 4:00hs</p>
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 33 - SEGURANÇA E SAÚDE
+        NOS TRABALHOS EM ESPAÇOS CONFINADOS
+      </p>
+      <p className={styles.nr}>
+        Capacitação inicial - Treinamento presencial - Carga Horária 16:00hs
+      </p>
+      <p className={styles.nr}>
+        Capacitação periódica - Treinamento presencial - Carga Horária 08:00hs
+      </p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> NR 35 - TRABALHO EM ALTURA
+      </p>
+      <p className={styles.nr}>
+        Treinamento presencial - Carga Horária 08:00hs
+      </p>
+
+      <p className={styles.descriptionNR}>
+        <span className={styles.arrow}>{`>`}</span> PRIMEIROS SOCORROS
+      </p>
+      <p className={styles.nr}>
+        Treinamento presencial - Carga Horária 20:00hs
       </p>
     </div>
   </div>

@@ -22,7 +22,7 @@ const ServiceDiv = () => (
       </div>
       <div className={styles.service}>
         <BatteryChargingFullOutlinedIcon style={{ fontSize: 42, margin: 0 }} />
-        <p style={{ margin: '10px 0' }}>Grupos gerador</p>
+        <p style={{ margin: '10px 0' }}>Grupo gerador</p>
       </div>
     </div>
     <div className={styles.inner}>
@@ -32,7 +32,9 @@ const ServiceDiv = () => (
       </div>
       <div className={styles.service}>
         <SupervisorAccountOutlinedIcon style={{ fontSize: 42, margin: 0 }} />
-        <p style={{ margin: '10px 0' }}>Treinamentos NR's</p>
+        <p style={{ margin: '10px 0' }}>
+          Treinamentos das Normas Regulamentadoras - NR's
+        </p>
       </div>
       <div className={styles.service}>
         <FlashOnIcon style={{ fontSize: 42, margin: 0 }} />
